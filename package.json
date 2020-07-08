@@ -40,8 +40,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1",
-    "styled-components": "^4.3.2",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.1.1",
     "styled-reset-advanced": "^1.0.1"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "@storybook/addons": "^5.1.11",
     "@storybook/react": "^5.1.11",
     "babel-plugin-styled-components": "^1.10.6",
-    "eslint": "^6.3.0",
+    "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
