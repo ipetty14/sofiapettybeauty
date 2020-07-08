@@ -31,7 +31,7 @@ const Label = styled.p`
 const IndexPage = () => (
   <Layout>
     <Page>
-      <Image src="https://pyxis.nymag.com/v1/imgs/957/9ae/68c6924a91715c39dc55ffcd8cb9348e4b-soap-lede.rsquare.w700.jpg" />
+      <Image />
       <Heading>Sofia Petty</Heading>
       <Label>Beauty</Label>
     </Page>
