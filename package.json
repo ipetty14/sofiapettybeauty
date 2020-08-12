@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-storybook",
-  "description": "Gatsby Storybook Starter",
+  "name": "sofia-petty-beauty",
+  "description": "Sofia Petty Beauty",
   "version": "1.1.0",
-  "author": "Marko Radak <mail@markoradak.com>",
+  "author": "Ian Petty <kanopiellc@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/markoradak/gatsby-starter-storybook"
+    "url": "https://github.com/ipetty14/sofiapettybeauty"
   },
   "keywords": [
     "gatsby",
@@ -23,10 +23,13 @@
     "build": "run-p 'build:!(storybook)'",
     "build:gatsby": "gatsby build",
     "build:storybook": "build-storybook -c .storybook -o storybook",
+    "build-storybook": "build-storybook -c .storybook -o storybook",
     "serve": "gatsby serve -o -p 8080",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "chromatic": "npx chromatic --project-token=w4u03jfi7uq"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "gatsby": "^2.15.6",
     "gatsby-image": "^2.2.17",
     "gatsby-plugin-manifest": "^2.2.14",
@@ -51,6 +54,7 @@
     "@storybook/addons": "^5.1.11",
     "@storybook/react": "^5.1.11",
     "babel-plugin-styled-components": "^1.10.6",
+    "chromatic": "^5.0.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",

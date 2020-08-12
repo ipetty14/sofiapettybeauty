@@ -14,7 +14,8 @@ module.exports = {
         display: 'standalone',
         icon: 'src/assets/logos/icon.png',
       },
-    }, {
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/`,
