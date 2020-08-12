@@ -32,9 +32,6 @@ const IndexPage = () => (
   <Layout>
     <Page>
       <Image />
-      <Heading>Sofia Petty</Heading>
-      <Label>Beauty</Label>
-      <hr></hr>
       <Label>Coming Soon...</Label>
     </Page>
   </Layout>
